@@ -1,0 +1,5 @@
+*.py[cod]
+
+# Data files / exported markdown files
+data/
+pages/
