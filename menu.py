@@ -373,7 +373,7 @@ No papers found.
 
 """
                         if collection.comment:
-                            body_str = body_str + '##### *' + collection.comment + """*
+                            body_str = body_str + '*' + collection.comment + """*
 """
                         for index, paper in enumerate(paper_list):
                             author = '. *' + paper.author + '*' if paper.author else ''
